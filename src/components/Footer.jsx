@@ -1,6 +1,7 @@
 import React from 'react';
 import { MessageCircle, Instagram, Facebook, Youtube, ChevronRight } from 'lucide-react';
 import logo from '../assets/logo.png'
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   const handleWhatsApp = () => {
@@ -97,7 +98,7 @@ const Footer = () => {
               className="cursor-pointer w-full group px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl font-semibold text-sm shadow-lg hover:shadow-green-600/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
               style={{ fontWeight: 600 }}
             >
-              <MessageCircle className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+              <FaWhatsapp className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               <span>WhatsApp Us</span>
             </button>
             
