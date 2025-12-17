@@ -5,11 +5,11 @@ const TermsConditions = () => {
   return (
     <div className="font-['Poppins',sans-serif] overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative text-white min-h-[70vh] flex items-center justify-center overflow-hidden">
+      <section className="relative text-white min-h-[30vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")'}}></div>
         <div className="absolute inset-0 bg-black/60"></div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <div className="relative z-10 mt-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <div className="animate-fadeIn">
             <div className="inline-flex items-center space-x-2 mb-6 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
               <Shield className="w-4 h-4 text-green-400" />
@@ -26,7 +26,7 @@ const TermsConditions = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-orange-500 to-transparent"></div>
+        
       </section>
 
       {/* Terms Content */}
